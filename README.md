@@ -1,4 +1,4 @@
-# react-app-actions
+# cypress-react-app-actions
 
 > Access the internals of React components from Cypress end-to-end tests
 

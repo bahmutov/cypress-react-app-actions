@@ -1,5 +1,5 @@
 {
-  "name": "react-app-actions",
+  "name": "cypress-react-app-actions",
   "version": "0.0.0-development",
   "description": "Access the internals of React components from Cypress end-to-end tests",
   "main": "lib/index.js",
