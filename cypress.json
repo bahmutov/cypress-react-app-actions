@@ -1,0 +1,8 @@
+{
+  "fixturesFolder": false,
+  "pluginsFile": false,
+  "baseUrl": "http://localhost:3000",
+  "viewportWidth": 500,
+  "viewportHeight": 500,
+  "ignoreTestFiles": "utils.js"
+}

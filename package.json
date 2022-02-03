@@ -1,0 +1,37 @@
+{
+  "name": "react-app-actions",
+  "version": "1.0.0",
+  "description": "Access the internals of React components from Cypress end-to-end tests",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "cypress run",
+    "start": "react-scripts start",
+    "cy:open": "cypress open",
+    "dev": "start-test 3000 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/react-app-actions.git"
+  },
+  "keywords": [
+    "cypress-plugin",
+    "react"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/react-app-actions/issues"
+  },
+  "homepage": "https://github.com/bahmutov/react-app-actions#readme",
+  "devDependencies": {
+    "cypress": "^9.4.1",
+    "prettier": "^2.5.1",
+    "start-server-and-test": "^1.14.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.0"
+  }
+}
