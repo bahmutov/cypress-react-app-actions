@@ -4,6 +4,18 @@
 
 ![cypress version](https://img.shields.io/badge/cypress-9.3.1-brightgreen) ![cypress-react-selector version](https://img.shields.io/badge/cypress--react--selector-2.3.15-brightgreen) ![react version](https://img.shields.io/badge/react-17.0.2-brightgreen)
 
+## Install
+
+TODO
+
+## Use
+
+TODO
+
+## Examples
+
+TODO
+
 ## Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022

@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 import 'cypress-react-selector'
-import { getReactFiber, getComponent } from '../support/utils'
+import { getReactFiber, getComponent } from '../../lib/utils'
 
 it('works', () => {
   cy.visit('/')
