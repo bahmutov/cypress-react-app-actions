@@ -8,3 +8,25 @@ jobs:
     uses: bahmutov/cypress-workflows/.github/workflows/standard.yml@v1
     with:
       start: 'npm start'
+
+  release:
+    needs: [test]
+    runs-on: ubuntu-20.04
+    # only deploy from the main branch
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install dependencies 📦
+        uses: cypress-io/github-action@v2
+        with:
+          runTests: false
+
+      - name: Semantic Release 🚀
+        uses: cycjimmy/semantic-release-action@v2
+        with:
+          branch: main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
