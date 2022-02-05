@@ -2,7 +2,7 @@
 
 > Access the internals of React components from Cypress end-to-end tests
 
-![cypress version](https://img.shields.io/badge/cypress-9.4.1-brightgreen) ![cypress-react-selector version](https://img.shields.io/badge/cypress--react--selector-2.3.15-brightgreen) ![react version](https://img.shields.io/badge/react-17.0.2-brightgreen) [![ci](https://github.com/bahmutov/react-app-actions/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/react-app-actions/actions/workflows/ci.yml)
+![cypress version](https://img.shields.io/badge/cypress-9.4.1-brightgreen) ![cypress-react-selector version](https://img.shields.io/badge/cypress--react--selector-2.3.15-brightgreen) ![react version](https://img.shields.io/badge/react-17.0.2-brightgreen) [![ci](https://github.com/bahmutov/cypress-react-app-actions/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/cypress-react-app-actions/actions/workflows/ci.yml)
 
 Read [Access React Components From Cypress E2E Tests](https://glebbahmutov.com/blog/react-state-from-e2e-tests/)
 
@@ -17,7 +17,7 @@ $ yarn add -D cypress-react-app-actions
 Import this module from the support file or from the spec file
 
 ```js
-// https://github.com/bahmutov/react-app-actions
+// https://github.com/bahmutov/cypress-react-app-actions
 import 'cypress-react-app-actions'
 ```
 
@@ -51,7 +51,7 @@ Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2022
 License: MIT - do anything with the code, but don't blame me if it does not work.
 
 Support: if you find any problems with this module, email / tweet /
-[open issue](https://github.com/bahmutov/react-app-actions/issues) on Github
+[open issue](https://github.com/bahmutov/cypress-react-app-actions/issues) on Github
 
 ## MIT License
 
