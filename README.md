@@ -4,7 +4,7 @@
 
 ![cypress version](https://img.shields.io/badge/cypress-9.4.1-brightgreen) ![cypress-react-selector version](https://img.shields.io/badge/cypress--react--selector-2.3.15-brightgreen) ![react version](https://img.shields.io/badge/react-17.0.2-brightgreen) [![ci](https://github.com/bahmutov/cypress-react-app-actions/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/cypress-react-app-actions/actions/workflows/ci.yml)
 
-Read [Access React Components From Cypress E2E Tests](https://glebbahmutov.com/blog/react-state-from-e2e-tests/)
+Read [Access React Components From Cypress E2E Tests](https://glebbahmutov.com/blog/react-state-from-e2e-tests/) and [Control React Applications From Cypress Tests](https://glebbahmutov.com/blog/react-app-actions/).
 
 ## Install
 
